@@ -1,0 +1,78 @@
+body {
+    font-family: Open Sans;
+}
+
+
+header {
+    display: flex;
+    text-align: right;
+    & > nav {
+        padding: 1rem;
+        a {
+            color: black;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            font-size: 65%;
+
+        }
+    }
+}
+
+
+main {
+    min-height: 30vh;
+.nerro {
+    min-height: 15vh;
+    text-align: left;
+    color: white;
+    background-color: black;
+
+}
+.azzurra {
+    min-height: 20vh;
+    background-color: rgb(60, 155, 233);
+}
+}
+
+
+
+footer {
+   min-height: 350px;
+   .imagine {
+    min-height: 250px;
+   } 
+   .lower-footer {
+    min-height: 100px;
+    background-color: rgb(56, 55, 55);
+   }
+}
+ul{
+    list-style-type: none;
+}
+.main-footer{
+    background-image: url(./footer-bg.jpg);
+    color: white;
+}
+.comics-div{
+    display: flex;
+}
+ul li a{
+    color: white;
+}
+.elements {
+    display: flex;
+    justify-content: flex-end;
+}
+.social-logo {
+    padding-right: 1rem;
+}
+.follow {
+    color: rgb(6, 100, 207);
+    padding-right: 2rem;
+}
+.sign-up-btn{
+    background-color: rgb(56, 55, 55);
+    border: solid rgb(6, 100, 207);
+    color: white;
+
+}
