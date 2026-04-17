@@ -28,9 +28,39 @@ main {
     background-color: black;
 
 }
+.upper-main{
+    background-image: url(/public/jumbotron.jpg);
+    height: 250px;
+    background-size: cover;
+}
+.series{
+    background-color: rgb(37, 152, 228);
+    width: 140px;
+    color: white;
+}
+.card-img-top{
+   width: 100%;
+}
+.card-style{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.card{
+    width: 125px;
+    margin-bottom: 1rem;
+}
+.load-more-btn{
+    color: white;
+    background-color: rgb(37, 152, 228);
+    margin-bottom: 1rem;
+    margin-left: 42%;
+    padding: 0.5rem 2rem;
+}
 .azzurra {
     min-height: 20vh;
     background-color: rgb(60, 155, 233);
+    padding: 0 10%;
 }
 }
 
@@ -55,6 +85,7 @@ ul{
 }
 .comics-div{
     display: flex;
+    margin: 0 1rem;
 }
 ul li a{
     color: white;
@@ -75,4 +106,17 @@ ul li a{
     border: solid rgb(6, 100, 207);
     color: white;
 
+}
+.img-main{
+    height: 35px;
+}
+.info-img{
+    padding-right: 1.8rem;
+    color: white;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 3%;
 }
