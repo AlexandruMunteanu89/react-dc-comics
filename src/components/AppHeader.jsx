@@ -2,13 +2,14 @@
 
 export default function AppHeader() {
 
-
+/*const menu = ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"];*/
+    
     return (
-        <header>
+        <header className="allineamento">
             <figure>
-                <img src="/dc-logo.png" alt="dc-logo.png" />
+                <img className="dc-logo" src="/dc-logo.png" alt="dc-logo.png" />
             </figure>
-            <nav>
+            <nav className="menu">
                 <a href="">CHARACTERS</a>
                 <a href="">COMICS</a>
                 <a href="">MOVIES</a>

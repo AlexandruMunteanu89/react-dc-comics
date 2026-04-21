@@ -2,7 +2,10 @@ body {
     font-family: Open Sans;
 }
 
-
+.allineamento{
+   margin-left: 10rem;
+   margin-right: 10rem; 
+}
 header {
     display: flex;
     text-align: right;
@@ -10,14 +13,27 @@ header {
         padding: 1rem;
         a {
             color: black;
-            padding: 0.5rem 1rem;
+            padding: 0.5rem 0.5rem;
             text-decoration: none;
             font-size: 65%;
 
         }
     }
 }
+.dc-logo {
+   height: 45px;
+    top: 50%;
+    transform: translateY(15%);
+}
+.menu {
+    margin-left: auto;
+    font-size: 11px;
+}
 
+.series {
+    position: absolute;
+    bottom: -25px;
+}
 
 main {
     min-height: 30vh;
@@ -32,6 +48,7 @@ main {
     background-image: url(/public/jumbotron.jpg);
     height: 250px;
     background-size: cover;
+    position: relative;
 }
 .series{
     background-color: rgb(37, 152, 228);
@@ -39,7 +56,10 @@ main {
     color: white;
 }
 .card-img-top{
-   width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 .card-style{
     display: flex;
@@ -47,8 +67,12 @@ main {
     padding: 2rem 0;
 }
 .card{
-    width: 125px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 1rem;
+}
+.card-title{
+    padding-bottom: 3rem;
 }
 .load-more-btn{
     color: white;
@@ -75,20 +99,43 @@ footer {
     min-height: 100px;
     background-color: rgb(56, 55, 55);
    }
+   
+}
+.bar-elements{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
 }
 ul{
     list-style-type: none;
+    font-size: 8px;
 }
 .main-footer{
     background-image: url(./footer-bg.jpg);
     color: white;
 }
+.title-list{
+    font-size: 12px;
+}
+.container {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+   }
+   .dc-logo-bg {
+   height: 400px;
+   position: absolute;
+   top: -75px;
+   bottom: -30px;
+   margin-left: 11%;
+   }
 .comics-div{
     display: flex;
     margin: 0 1rem;
 }
 ul li a{
     color: white;
+    text-decoration: none;
 }
 .elements {
     display: flex;
