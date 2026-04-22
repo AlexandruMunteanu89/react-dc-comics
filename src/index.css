@@ -45,7 +45,7 @@ main {
 
 }
 .upper-main{
-    background-image: url(/public/jumbotron.jpg);
+    background-image: url(/jumbotron.jpg);
     height: 250px;
     background-size: cover;
     position: relative;
